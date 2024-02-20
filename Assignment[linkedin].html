@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    #bigcontainer{
+      display: flex;
+      width: 100%;
+      height: 90px;
+      border: 1px solid black; 
+      justify-content: space-evenly;
+    }
+
+    #container1{
+        width: 200px;
+        height: 75px;
+    }
+    #container1 >img{
+        width: 80%;
+        height: 50px;
+        padding-top: 20px;
+        padding-left: 150px;
+    }
+    #container2 >ul{
+        display: flex;
+        width: 500px;
+        height: inherit;
+        justify-content: space-evenly;
+        list-style: none;
+        padding-top: 70px;
+    }
+    #li5{
+        border-left: 1px solid rgb(110, 101, 101);
+        border-right: 1px solid rgb(150, 144, 144);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+</style>
+
+<body>
+    <nav>
+        <div id="bigcontainer">
+            <div id="container1">
+               <img src="https://t3.ftcdn.net/jpg/03/95/39/16/360_F_395391650_6LfU41V5A4WIhdTis899OaF7wXVgThgP.jpg" alt="">
+            </div>
+            <div id="container2">
+                <ul>
+                    <div><li><i class="fa-regular fa-newspaper"></i></li>Articles</div>
+                    <div><li></li>People</div>
+                    <div><li></li>Learning</div>
+                    <div><li></li>Jobs</div>
+                    <div id="li5"><li></li>Get the app</div>
+                </ul>
+            </div>
+            <div id="container3"></div>
+        </div>
+    </nav>
+</body>
+<script src="https://kit.fontawesome.com/84b9ce558c.js" crossorigin="anonymous"></script>
+</html>

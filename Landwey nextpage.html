@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #mainDiv{
+        background-color: rgb(0, 0, 0, 0.1);
+    }
+    nav {
+        width: 1230px;
+        height: 90px;
+        background-color: #ffffff;
+        display: flex;
+        margin-left: 70px;
+        justify-content: space-between;
+    }
+    #navOne{
+        /* border-bottom: 1px solid black; */
+        padding-top: 25px;
+        padding-right: -80px;
+        background-color: #ffffff;
+    }
+    #container{
+        width: 1000px;
+        border-bottom: 1px solid rgb(199, 193, 193);
+        margin-left: 100px;
+        display: flex;
+        background-color: #ffffff;
+    }
+    ul{
+        list-style: none;
+        font-weight: bold;
+        display: flex;          
+        justify-content: space-evenly;
+        width: 450px;
+        margin-top: 20px;
+        padding-left: 400px;
+    }
+    #p1{
+        width: 1200px;
+        height: 150px;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 100px;
+        padding-bottom: 40px;
+        margin-left: 96px;
+        border-bottom: 1px solid rgb(179, 165, 165);
+        background-color: #ffffff;
+    }
+    #bod{
+        width: 450px;
+        margin-right: 25px;
+        font-size: 55px;
+        color: rgb(80, 73, 73);
+        background-color: #ffffff;
+    }
+    #bodd{
+        color: rgb(211, 205, 205);
+        font-size: 18px;
+        background-color: #ffffff;
+        font-family: sans-serif;
+        margin-right: 20px;
+        padding-top: 40px;
+    }
+    .twinTower{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        padding-top: 40px;
+        margin-top: 300px;
+        margin-left: 50px;
+    }
+    .taiwo img{
+        width: 100%;
+        height: inherit;
+    }
+    .taiwo{
+        width: 50%;
+        height: 380px;
+    }
+    .kenny{
+        width: 40%;
+        height: 450px;
+        background-color: #f2f2f2;
+        /* text-align: center; */
+        
+    }
+    .nowselling{
+        width: 150px;
+        height: 40px;
+        color: #fff;
+        background-color: #000;
+        border: none;
+        margin: 20px 80px;
+    }
+    .Lakowe{
+        margin: 10px 80px;
+        font-size: 30px;
+        font-family: sans-serif;
+    }
+    .lak{
+        margin: 10px 80px;
+        font-size: 24px;
+        color: rgba(0, 0, 0, 0.8);
+        font-weight: lighter;
+    }
+    .intro{
+        margin: 20px 80px;
+        font-size: 20px;
+    }
+    .view{
+        width: 180px;
+        height: 50px;
+        color: #fff;
+        background-color: #000;
+        margin: 20px 80px;
+        border: none;
+    }
+    article{
+        width: 90%;
+        height: 450px;
+        margin: auto;
+    }
+    aside{
+        width: 90%;
+        height: 450px;
+        margin: 80px auto;
+    }
+    
+    .holder{
+        width: 20%;
+        height: 200px;
+        border: 2px solid green;
+    }
+</style>
+
+<body>
+    <div id="mainDiv">
+        <nav id="navOne">
+            <div id="container">
+                <img style="height: 40px;width: 150px;" src="https://landwey.ng/wp-content/uploads/2023/12/logo-main-black.png" alt="">
+            
+            <div id="divcontain">
+                <ul>
+                    <li>Our projects</li>
+                    <li>schedule an inspection</li>
+                    <li>About<i class="fa-solid fa-chevron-down"></i></li>
+                </ul>
+            </div>
+        
+        </nav>
+        <nav id="navTwo">
+            <h1 id="p1">
+                <p id="bod">
+                    Discover Your <br> Perfect Plot.
+                </p>
+                <p id="bodd">
+                    LandWey is building new communities in Lagos with beautiful, natural <br> landscapes with premium amenities. Our vibrant, award-winning, <br> projects appeal to all lifestyles and boast some of green spaces. 
+                </p>
+            </h1>
+        </nav>
+        <aside>
+        <nav id="navThree">
+            <div class="twinTower">
+           <div class="taiwo"><img src="https://landwey.ng/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-17-at-12.16.00-PM.jpeg" alt=""></div>
+                <div class="kenny">
+                    <button class="nowselling">NOW SELLING</button>
+                    <h3 class="Lakowe">Lakowe Country <br> Reserve</h3>
+                    <h4 class="lak">LAKOWE,LEKKI</h4>
+                    <p class="intro">Introducing Lakowe Country <br>Reserve, where modern living <br>seamlessly merges with the <br>tranquility of nature...</p>
+                    <button class="view"> <i class="fa-solid fa-arrow-right"></i>&nbsp;&nbsp;&nbsp;VIEW PROPERTY</button>
+                </div>
+            </div>
+        </nav>
+        </aside>
+        <article>
+            <nav id="navThree">
+                <div class="twinTower">
+              
+                    <div class="kenny">
+                        <button class="nowselling">NOW SELLING</button>
+                        <h3 class="Lakowe"> Coastal Town </h3>
+                        <h4 class="lak">IBEJU LEKKI</h4>
+                        <p class="intro">Seated in the heart of Ibeju- <br>Lekki, Coastal Town offers you <br>the iconic living, with the best of luxury to give you an <br>unforgettable experience...... </p>
+                        <button class="view"> <i class="fa-solid fa-arrow-right"></i>&nbsp;&nbsp;&nbsp;VIEW PROPERTY</button>
+                    </div>
+                     <div class="taiwo"><img src="https://landwey.ng/wp-content/uploads/2023/12/coastaltowb.jpg" alt=""></div>
+                </div>
+            </nav>
+        </article>
+        <aside>
+            <nav id="navThree">
+                <div class="twinTower">
+               <div class="taiwo"><img src="https://landwey.ng/wp-content/uploads/2024/01/FCD2.jpg" alt=""></div>
+                    <div class="kenny">
+                        <button class="nowselling">NOW SELLING</button>
+                        <h3 class="Lakowe">Future City - District  <br> 2</h3>
+                        <h4 class="lak">EPE</h4>
+                        <p class="intro">District 2 offers you the iconic <br>living, with the best of luxury to <br>give you an unforgettable <br>experience, lavishing you with <br>the ultimate .... </p>
+                        <button class="view"> <i class="fa-solid fa-arrow-right"></i>&nbsp;&nbsp;&nbsp;VIEW PROPERTY</button>
+                    </div>
+                </div>
+            </nav>
+        </aside>
+        <article>
+            <nav id="navThree">
+                <div class="twinTower">
+               
+                    <div class="kenny">
+                        <button class="nowselling">NOW SELLING</button>
+                        <h3 class="Lakowe"> Urban Prime 3 </h3>
+                        <h4 class="lak">Ogombo Road, Ajah</h4>
+                        <p class="intro">You get to live in Lagos and <br>yet away from it. The Urban <br>Prime 3 is a tranquil <br>environment that is close to <br>nature yet accessible from <br>Lekki Epe Expressway </p>
+                        <button class="view"> <i class="fa-solid fa-arrow-right"></i>&nbsp;&nbsp;&nbsp;VIEW PROPERTY</button>
+                    </div>
+                    <div class="taiwo"><img src="https://landwey.ng/wp-content/uploads/2024/01/urban-prime-3.jpg" alt=""></div>
+                </div>
+            </nav>
+        </article>
+</body>
+<script src="https://kit.fontawesome.com/84b9ce558c.js" crossorigin="anonymous"></script>
+</html>

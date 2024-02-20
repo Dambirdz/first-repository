@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #navOne {
+        width: 100%;
+        height: 90px;
+        display: flex; 
+        justify-content: space-evenly;
+        position: fixed;
+        background-color: transparent;
+    }
+    .bigContainer{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    #divOne {
+        display: flex;
+    }
+    #divTwo > ul{
+        display: flex;
+        width: 950px;
+        /* border: 1px solid#B00301; */
+        justify-content: space-evenly;
+        padding-top: 30px;
+    }
+    li {
+        list-style: none;
+    }
+    #buttonOne {
+        width: 190px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        border-radius: 10px;
+        border: #B00301;
+        justify-content: space-evenly;
+        color: white;
+        margin-left: 30PX;
+        background-color: #B00301;
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+    #divThree{
+        display: flex;
+        justify-content: space-between;
+    }
+    #divThree > i{
+        padding-top: 30px;
+    }
+    i{
+        margin-top: 2px;
+        margin-right: 20px;
+    }
+    #sectionOne{
+        width: 100%;
+        height: 500px;
+        color: white;
+        padding-left: 30px;
+        background-image: url(https://www.ubagroup.com/wp-content/uploads/2019/01/United-Bank-For-Africa-Countries.jpg);
+    }
+    #headOne{
+        padding-top: 130px;
+    }
+    #divContainer{
+        font-size: 70px;
+        margin-bottom: 30px;
+    }
+    .p1{
+        font-size: 30px;
+    }
+    #buttonTwo{
+        width: 170px;
+        height: 40px;
+        color: white;
+        background-color: #AF0201;
+        border: #AF0201;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    .divOne{
+        width: 93%;
+        height: 125px;
+        margin: 30px auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border: 2px solid blue;
+    }
+    .divOne > smallcontainer{
+        width: 30%;
+        height: inherit;
+        color: #000;
+        background-color: azure;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 15px;
+        border: 2px solid red;
+    }
+</style>
+
+<body>
+    <nav id="navOne">
+        <div class="bigContainer">
+        <div id="divOne">
+            <button id="buttonOne"><i class="fa-solid fa-lock"></i>
+                UBA INTERNET BANKING
+            </button>
+        </div>
+        <div id="divTwo">
+            <ul>
+                <li><i class="fa-solid fa-house"></i></li>
+                <li>Banking</li>
+                <li>About UBA</li>
+                <li>Investors</li>
+                <li>Media</li>
+                <li>CSR</li>
+                <li>Sustainability</li>
+                <li><i class="fa-solid fa-earth-americas"></i></li>
+                <li>Open An Account</li>
+            </ul>
+        </div>
+        <div id="divThree">
+            <i class="fa-solid fa-magnifying-glass"></i><img src="https://www.ubagroup.com/wp-content/uploads/2018/06/UBA-Logo.svg" alt="">
+        </div>
+    </div>
+    </nav>
+    <section id="sectionOne">
+        <div id="divFour">
+            <h1 id="headOne">
+               <div id="divContainer">Excellent Service...Delivered <br></div>
+               <p class="p1">Now fully positioned as a pan-African bank, UBA Group is firmly at <br>
+                the forefront of driving the renaissance of the African economy <br><br></p>
+                <button id="buttonTwo">Learn More</button>
+            </h1>
+        </div>  
+        <section id="s1">
+            <div class="divOne">
+            <div class="smallcontainer1"> <img src="https://www.ubagroup.com/wp-content/uploads/2018/10/news-red.svg" alt=""> NEWS & <br>
+                PUBLICATIONS
+            </div>
+            <div class="smallcontainer2"><img src="https://www.ubagroup.com/wp-content/uploads/2018/10/financial-reports-red.svg" alt="">
+                FINANCIAL <br> REPORTS</div>
+            <div class="smallcontainer3"> <img src="https://www.ubagroup.com/wp-content/uploads/2018/10/uba-foundation-red.svg" alt=""> UBA
+                <br> FOUNDATION </div>
+        </div>                                  
+        </section>    
+    </section>
+    
+</body>
+<script src="https://kit.fontawesome.com/84b9ce558c.js" crossorigin="anonymous"></script>
+
+</html>

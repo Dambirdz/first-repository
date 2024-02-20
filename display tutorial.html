@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    span {
+        display: flex;
+    }
+
+    #navOne {
+        display: flex;
+        height: 60px;
+        border: 1px solid black;
+    }
+
+    #divOne,  #divTwo, #divThree {
+        height: inherit;
+        width: 100vw;
+    }
+
+    #divOne {
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #divTwo {
+        width: 60%;
+    }
+
+    #divThree {
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #divTwo>ul {
+        list-style: none;
+        width: 100%;
+        height: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #buttonone, #buttontwo {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #buttonone{
+        background-color: cadetblue;
+    }
+    #buttontwo{
+        background-color: lightcyan;
+    }
+    div{
+        background-color: rgb(201, 167, 167);
+    }
+    #sectionone > div{
+        background-color: aliceblue;
+    }
+</style>
+
+<body>
+    <nav id="navOne">
+        <div id="divOne">
+            <h1>Test class</h1>
+        </div>
+        <div id="divTwo">
+            <ul>
+                <li>Home</li>
+                <li>Service</li>
+                <li>Contact us</li>
+                <li>About us</li>
+                <li>Book a demo</li>
+                <li>Report a problem</li>
+            </ul>
+        </div>
+        <div id="divThree">
+            <button id="buttonone">sign up</button>
+            <button id="buttontwo">login</button>
+        </div>
+    </nav>
+
+    <section id="sectionone">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+</body>
+
+</html>

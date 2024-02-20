@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+nav{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+#imageOne{
+    width: 100px;
+margin-top: 10px;
+margin-left: 100px;
+}
+#divTwo{
+    display: flex;
+    margin-top: 20px;
+}
+#divThree{
+    margin-top: 20px;
+}
+#buttonOne{
+    margin-right: 50px;
+    border: 1px solid ;
+    width: 80px;
+    height: 35px;
+    border-radius: 100px;
+    border-color: #33699b;
+    color: #0f5a8d;
+}
+#buttonTwo{
+width: 80px;
+border: 1px solid white;
+height: 35px;
+border-radius: 100px;
+background-color: #0070BA;
+color: white;
+}
+#sectionOne{
+    background-image: url(https://www.paypalobjects.com/webstatic/en_GB/mktg/wright/home/homepage-hero-1x.jpg);
+    width: 100%;
+    height: 400px;
+}
+#headTwo{
+    font-size: 50px;
+    color: beige;
+    text-align: center;
+    padding-top: 180px;
+}
+#buttonThree{
+    width: 350px;
+    margin-left: 500px;
+    font-weight: bold;
+    height: 50px;
+    font-size: 17px;
+    margin-top: 50px;
+    border: 1px solid #0070BA;
+    border-radius: 100px;
+    background-color: #0070BA;
+    color: beige;
+}
+#headThree{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 17px;
+    color: beige;
+}
+#headFour{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 40px;
+}
+#divFive{
+margin-left: 630px;
+margin-top: 50px;
+}
+#headSix{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+#headSeven{
+text-align: center;
+margin-top: 10px;
+font-size: 20px;
+}
+#buttonFour{
+    width: 200px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 100px;
+    margin-left: 600px;
+    margin-top: 40px;
+    font-weight: bold;
+    border-color: #0070BA;
+    color: #0070BA;
+    background-color: rgb(255, 255, 251);
+}
+#sectionThree{
+background-color: rgb(226, 224, 221);
+}
+#headEight{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    padding-top: 70px;
+}
+#p1{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 10px ;
+}
+#divSix{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon{
+    /* margin-top: 35px; */
+    font-weight: lighter;
+    font-size: 60px;
+    color: rgba(0, 0,0,0.1);
+}
+#bigcontainer{
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    height: 300px;
+    margin: auto;
+}
+#smallContainer{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    margin-left: auto;
+}
+#number {
+    width: 60px;
+    height: 40px;
+    border-radius: 100%;
+
+}
+#word {
+    width: 230px;
+    height: 150px;
+}
+main {
+    background-color: #003087;
+    width: 100%;
+    height: 450px;
+    color: #fff;
+}
+.join {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+}
+.folder {
+    width: 90%;
+    height: 300px;
+    /* border: 2px solid red; */
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divtext {
+    width: 45%;
+    height: 200px;
+}
+.p1{
+    font-size: 40px;
+}
+.p2{
+    font-weight: 400px;
+}
+.p3{
+    font-weight: bold;
+}
+.p4{
+    font-size: 40px;
+}
+.p5{
+    font-weight: 400px;
+}
+.p6{
+    font-weight: bold;
+}
+.sectionFour{
+    background-color: #f2f5f7;
+}
+#p7{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 80px;
+}
+#buttonFive{
+    width: 250px;
+    height: 50px;
+    border-radius: 100px;
+    margin-left: 550px;
+    margin-top: 30px;
+    background-color: #005EA6;
+    color: white;
+    font-weight: bold;
+}
+#sectionFive{
+    width: 80%;
+    height: 90px;
+    margin: 20px auto;
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0,0,0.3);
+}
+ul {
+    display: flex;
+    width: 700px;
+    height: 50px;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+li {
+    list-style-type: none;
+    width: 450px;
+}
+#container{
+    width: 30px;
+    height: 20px;
+    background-size: contain;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQ4AAACUCAMAAABV5TcGAAAAM1BMVEUBh1L///8FilUAiE3l5eUAeka92MzH39QAjFAIgE210cTm6Oety70IjVgBhk8AfEm/3M1ukzP7AAABaklEQVR4nO3QQU6DUABFUYRWoVTa/a/WqXfA7GNics4CXl7uNI+xbo/9dq39ua2D3p75nsY4ltfXx9Xer2XQ3TPzoJ1juV+f4/P+X3JMcoQcIUfIEXKEHCFHyBFyhBwhR8gRcoQcIUfIEXKEHCFHyBFyhBwhR8gRcoQcIUfIEXKEHCFHyBFyhBwhR8gRcoQcIUfIEXKEHCFHyBFyhBwhR8gRcoQcIUfIEXKEHCFHyBFyhBwhR8gRcoQcIUfIEXKEHCFHyBFyhBwhR8gRcoQcIUfIEXKEHCFHyBFyhBwhR8gRcoQcIUfIEXKEHCFHyBFyhBwhR8gRcoQcIUfIEXKEHCFHyBFyhBwhR8gRcoQcIUfIEXKEHCFHyBFyhBwhR8gRcoQcIUfIEXKEHCFHyBFyhBwhR8gRcoQcIUfIEXKEHCFHyBFyhBy/HX+U4+Ie43K8rs/xvi/HoL8n5mkeY90e++1a+3NbB7098/0DqsVPwgTsRL4AAAAASUVORK5CYII=);
+    background-color: rgba(0, 0,0,0.1);
+    margin-left: 340px;
+    margin-top: 65px;
+}
+ol{
+    display: flex;
+    width: 500px;
+    height: 5px;
+    justify-content: space-between;
+}
+    .divContain{
+        width: 80%;
+        height: 20px;
+        display: flex;
+        justify-content: space-between;
+        color: rgba(0, 0,0,0.5);
+        margin: auto;
+    }
+.p1contain{
+    margin-right: 270px;
+    font-weight: bold;
+}
+#headten{
+    font-size: small;
+    color: rgba(0, 0,0,0.5);
+    margin-left: 140px;
+}
+</style>
+<body>
+    <nav id="navOne">
+        <div>
+            <img id="imageOne" src="https://cdn.pixabay.com/photo/2015/05/26/09/37/paypal-784404_1280.png" alt="">
+        </div>
+<div id="divTwo">
+    <h1>Personal <i class="fa-solid fa-chevron-down"></i></h1>
+</div>
+<div id="divThree">
+    <button id="buttonOne">Log in</button>
+    <button id="buttonTwo">Sign up</button>
+</div>
+    </nav>
+    <section id="sectionOne">
+       <div id="divFour">
+        <h1 id="headTwo">The simpler, safer way to pay online.</h1>
+        <button id="buttonThree">Sign up for free</button>
+        <h1 id="headThree">Own a business? Open a Business account.</h1>
+       </div>
+    </section>
+        <section id="sectionTwo">
+            <div>
+            <h1 id="headFour">
+            PayPal is for everyone who pays online.
+         </h1>
+         <h1 id="divFive">
+            <img src="https://www.paypalobjects.com/digitalassets/c/website/marketing/emea/gb/en/home/1-individuals.jpg" alt="">
+            <h1 id="headSix">individuals
+            </h1>
+            <h1 id="headSeven">Find out why we have more than 200M active accounts worldwide.</h1>
+            <button id="buttonFour">Learn more</button>
+        </div>
+        </section>
+        <section id="sectionThree">
+             <h1 id="headEight">PayPal connects buyers and sellers.</h1>
+            <p id="p1">For buyers</p> 
+            <div id="divSix">
+            <img src="https://www.paypalobjects.com/digitalassets/c/website/marketing/emea/shared/send-only-no-p2p/buyonline_browser1.png" alt=""><i class="fa-solid fa-chevron-right icon"></i>
+            <img src="https://www.paypalobjects.com/digitalassets/c/website/marketing/emea/shared/send-only-no-p2p/buyonline_browser2.png" alt=""><i class="fa-solid fa-chevron-right icon" ></i>
+            <img src="https://www.paypalobjects.com/digitalassets/c/website/marketing/emea/shared/send-only-no-p2p/buyonline_browser3.png" alt="">
+            </div> 
+            <div id="bigcontainer">
+                <div id="smallContainer">
+                    <button id="number">1</button>
+                    <div id="word">Sign up with just an email address and <br>password.
+                    </div>
+                </div>
+                <div id="smallContainer">
+                    <button id="number">2</button>
+                    <div id="word">Securely add your cards.</div>
+                </div>
+                <div id="smallContainer">
+                    <button id="number">3</button>
+                    <div id="word">Use the PayPal button to check out with <br>just an email address and password.</div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <main>
+        <h1 class="join">Join 200M active PayPal accounts worldwide.</h1>
+            <div class="folder">
+                <div class="divtext">
+                    <p class="p1">Safer and protected</p><br>
+                    <p class="p2">Shop with peace of mind. We don’t share your full financial information with <br>sellers. And PayPal Buyer Protection covers your eligible purchases if they don’t <br>show up or match their description.</p><br><br>
+                    <p class="p3">More about security</p>                
+                </div>
+                <div class="divtext">
+                    <p class="p4">Mostly free, always upfront</p><br>
+                    <p class="p5">It’s free to open a PayPal account and buy something using PayPal unless it involves <br>a currency conversion.</p><br><br>
+                    <p class="p6">More about fees</p>
+                </div>
+    </main>
+    <section class="sectionFour">
+        <p id="p7">Sign up and get started.</p>
+        <button id="buttonFive">Get started</button>
+    </section>
+    <section id="sectionFive">
+        <ul>
+            <li>Help</li>
+            <li>Contact</li>
+            <li>Fees</li>
+            <li>Security</li>
+            <li>Feautures</li>
+            <li>Shop</li>
+        </ul>
+        <div id="container"></div>
+    </section>
+    <div class="divContain">
+        <ol>
+            <li>About</li>
+            <li>Newsroom</li>
+            <li>Jobs</li>
+            <li>Developers</li>
+        </ol>
+        <p class="p1contain">&#169 1999–2024 All rights reserved.</p>
+    
+    </div>
+    <h1 id="headten">PayPal Pte. Ltd. is licensed by the Monetary Authority of Singapore as a Major Payment Institution under the Payment Services Act 2019.</h1>
+</body>
+<script src="https://kit.fontawesome.com/84b9ce558c.js" crossorigin="anonymous"></script>
+</html>
